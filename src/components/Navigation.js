@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href='/'>RESTU INVESTAMA</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

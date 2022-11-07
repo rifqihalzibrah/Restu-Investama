@@ -7,6 +7,7 @@ import Navigation from './components/Navigation.js';
 import Home from './components/Home/Home.js'
 import About from './components/About/About.js';
 import Service from './components/Service/Service.js'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/service' element={<Service />} />
           <Route path='/about' element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

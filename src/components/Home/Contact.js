@@ -34,19 +34,6 @@ function Contact() {
                         </Form>
                     </Col>
                 </Row>
-
-                <Row className="contact-foot">
-                    <Col>PT. RESTU INTI NUSA ABADI</Col>
-                    <Col>Services</Col>
-                    <Col>Contact</Col>
-                </Row>
-                <Row className="contact-foot">
-                    <Col>
-                        <p>A world-class active investment firm in Indonesia that promotes a strong business character to create value for stakeholders and the Indonesian nation.</p>
-                    </Col>
-                    <Col>Services</Col>
-                    <Col>Contact</Col>
-                </Row>
             </Container>
         </div>
     );

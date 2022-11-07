@@ -10,7 +10,7 @@ function Navigation() {
     <div className="navigation">
       <Navbar expand="lg" fixed='top' bg='light'>
         <Container>
-          <Navbar.Brand href='/'><img src={Logo} className="navigation-logo-image" alt='logo'></img><span className='fw-bolder'>RESTU </span>INVESTAMA</Navbar.Brand>
+          <Navbar.Brand href='/'><img src={Logo} className="navigation-logo-image" alt='logo'></img>RESTU INVESTAMA</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

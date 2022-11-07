@@ -52,7 +52,7 @@
 
 
 /* Home About */
-.about {
+.home-about {
     height: 110vh;
     padding-top: 30vh;
 }
@@ -71,7 +71,7 @@
 
 
 /* Home Service */
-.service {
+.home-service {
     height: 110vh;
     padding-top: 30vh;
 }

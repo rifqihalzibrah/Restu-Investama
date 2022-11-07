@@ -11,10 +11,10 @@ const Home = () => {
             <div className='vision-mission bg-danger'>
                 <VisionMission />
             </div>
-            <div className='about bg-success'>
+            <div className='home-about bg-success'>
                 <HomeAbout />
             </div>
-            <div className='service bg-warning'>
+            <div className='home-service bg-warning'>
                 <HomeService />
             </div>
             <div className='contact'>

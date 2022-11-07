@@ -1,3 +1,8 @@
-.navigation-item {
-    padding: 0.3rem 5rem !important;
+.navigation {
+    height: 10vh;
+    font-size: 18px;
+}
+
+.navigation-logo-image {
+    width: 45px;
 }

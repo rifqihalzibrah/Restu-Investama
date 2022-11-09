@@ -1,1 +1,111 @@
-.about {}
+/* Description */
+
+.desc-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #007ec4;
+}
+
+.desc {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+/* Vision Mission */
+
+.about-vision-mission-title {
+    text-align: justify;
+    font-size: 40px;
+    font-weight: bold;
+    color: #007EC4;
+}
+
+.about-vision-mission-text {
+    font-size: 18px;
+    text-align: justify
+}
+
+/* Value */
+
+.value-title {
+    text-align: justify;
+    font-size: 40px;
+    font-weight: bold;
+    color: #007EC4;
+}
+
+.value-description {
+    font-size: 18px;
+    text-align: justify
+}
+
+/* Character */
+
+.character-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #007EC4;
+}
+
+/* Management */
+
+.JustifyMid {
+    margin: auto;
+}
+
+.DirutKomutPhoto {
+    width: 38vh;
+}
+
+.ManagementText {
+    color: #007EC4;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 60px;
+    margin: auto;
+}
+
+.JobTittle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #007EC4;
+}
+
+.NameTittle {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.Description {
+    text-align: justify;
+    padding: 30px;
+}
+
+.Padding {
+    padding: 40px 0px;
+}
+
+.JobTittleKomis {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007EC4;
+}
+
+.NameTittleKomis {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.CardPhoto {
+    width: 24vh;
+    height: 24vh;
+    margin: auto;
+}
+
+.CardGroup {
+    margin: auto;
+}

@@ -1,0 +1,49 @@
+.ServiceTittle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #007EC4;
+}
+
+.Padding {
+    padding: 40px 0px;
+}
+
+.CardService {
+    margin: auto;
+    height: 25vh;
+}
+
+.PaddingCard {
+    padding: 10px 0px;
+}
+
+.PhotoService {
+    margin: auto;
+}
+
+.CardStyle {
+    height: 18vh;
+    margin: auto;
+}
+
+.CardTittle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007EC4;
+    margin: auto;
+}
+
+.Description {
+    text-align: justify;
+    padding: 30px;
+}
+
+.NameTittle {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.CardText {
+    height: 16vh;
+}

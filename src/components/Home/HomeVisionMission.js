@@ -8,7 +8,7 @@ import Logo from '../../assets/Logo 1.png'
 
 
 
-const VisionMission = () => {
+const HomeVisionMission = () => {
 
     const [index, setIndex] = useState(0);
 
@@ -20,28 +20,28 @@ const VisionMission = () => {
         <div>
             <Container>
                 <Row>
-                    <Col lg={8} className="vision-mission-title">
+                    <Col lg={8} className="home-vision-mission-title">
                         <div>RESTU INVESTAMA</div>
                     </Col>
-                    <Col lg={true} className="vision-mission-logo">
-                        <img src={Logo} className="vision-mission-logo-image" alt='logo'></img>
+                    <Col lg={true} className="home-vision-mission-logo">
+                        <img src={Logo} className="home-vision-mission-logo-image" alt='logo'></img>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <div className='vision-mission-carousel'>
+                        <div className='home-vision-mission-carousel'>
                             <Carousel variant="dark" activeIndex={index} onSelect={handleSelect}>
                                 <Carousel.Item>
-                                    <div className='vision-mission-text'>
+                                    <div className='home-vision-mission-text'>
                                         <p>A world-class active investment firm in Indonesia that promotes a strong business character to
                                             create value for stakeholders and the Indonesian nation.</p>
-                                        <button className="Button">About Us</button>
+                                        <a href='#home-about'><button className="Button">About Us</button></a>
                                     </div>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <div className='vision-mission-text'>
+                                    <div className='home-vision-mission-text'>
                                         <p>Be a partner of choice for investors interested in participating in Indonesia's growth dynamics.</p>
-                                        <button className="Button">About Us</button>
+                                        <a href='#home-about'><button className="Button">About Us</button></a>
                                     </div>
                                 </Carousel.Item>
                             </Carousel>
@@ -53,4 +53,4 @@ const VisionMission = () => {
     )
 }
 
-export default VisionMission
+export default HomeVisionMission

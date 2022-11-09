@@ -16,13 +16,13 @@
     transform: scale(1.1) perspective(1px);
 }
 
-/* Vision Mision */
-.vision-mission {
+/* Home Vision Mision */
+.home-vision-mission {
     padding-top: 10vh;
     height: 90vh;
 }
 
-.vision-mission-title {
+.home-vision-mission-title {
     color: #007EC4;
     padding: 10px 10px;
     font-weight: bold;
@@ -30,22 +30,22 @@
     margin: auto;
 }
 
-.vision-mission-carousel {
+.home-vision-mission-carousel {
     padding: 20px 0px;
 }
 
-.vision-mission-text {
+.home-vision-mission-text {
     text-align: justify;
     padding: 10px 120px;
     font-size: 26px;
 }
 
-.vision-mission-logo {
+.home-vision-mission-logo {
     padding: 10px 10px;
 
 }
 
-.vision-mission-logo-image {
+.home-vision-mission-logo-image {
     width: 160px;
 }
 
@@ -57,13 +57,13 @@
     padding-top: 30vh;
 }
 
-.about-title {
+.home-about-title {
     font-size: 40px;
     font-weight: bold;
     color: #007EC4;
 }
 
-.about-description {
+.home-about-description {
     font-size: 18px;
     text-align: justify
 }
@@ -76,13 +76,13 @@
     padding-top: 30vh;
 }
 
-.service-title {
+.home-service-title {
     font-size: 40px;
     font-weight: bold;
     color: #007EC4;
 }
 
-.service-description {
+.home-service-description {
     font-size: 18px;
     text-align: justify
 }

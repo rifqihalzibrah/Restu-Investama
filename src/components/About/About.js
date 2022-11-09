@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import Description from './Description'
 import AboutVisionMission from './AboutVisionMission'
 import Value from './Value'

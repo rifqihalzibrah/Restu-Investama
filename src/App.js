@@ -7,6 +7,7 @@ import Navigation from './components/Navigation.js';
 import Home from './components/Home/Home.js'
 import About from './components/About/About.js';
 import Service from './components/Service/Service.js'
+import Contact from './components/Contact/Contact.js';
 // import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/service' element={<Service />} />
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

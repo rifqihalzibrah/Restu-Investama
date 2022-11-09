@@ -7,9 +7,9 @@ import Stack from 'react-bootstrap/Stack';
 import Location from "./Location.js";
 import "./Home.css";
 
-function Contact() {
+function HomeContact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <Container>
                 <Row className="contact-title">
                     <Col>Get In Touch</Col>
@@ -39,4 +39,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default HomeContact;

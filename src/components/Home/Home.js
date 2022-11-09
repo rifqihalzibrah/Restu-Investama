@@ -3,7 +3,7 @@ import './Home.css'
 import HomeVisionMission from './HomeVisionMission.js'
 import HomeService from './HomeService.js'
 import HomeAbout from './HomeAbout.js'
-import Contact from './Contact.js'
+import HomeContact from './HomeContact.js'
 
 const Home = () => {
     return (
@@ -17,8 +17,8 @@ const Home = () => {
             <div className='home-service bg-warning'>
                 <HomeService />
             </div>
-            <div className='contact'>
-                <Contact />
+            <div className='contact' id='contact'>
+                <HomeContact />
             </div>
         </div>
     )

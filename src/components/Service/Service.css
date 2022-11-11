@@ -1,21 +1,175 @@
-.ServiceTittle {
-    font-size: 40px;
-    font-weight: bold;
-    color: #007EC4;
+/* Line Of Business */
+
+.line-of-business {
+
+    padding-top: 8vh;
 }
 
-.Padding {
-    padding: 40px 0px;
+.service-padding-1 {
+    padding: 20px 0px;
 }
+
+.service-padding-card {
+    padding: 10px 0px;
+}
+
+/* Corporate Action */
+
+.corporate-action {
+
+    padding-top: 8vh;
+}
+
+/* Company Partner */
+
+.company-partner {
+
+    padding-top: 8vh;
+}
+
+.company-card {
+    height: 30vh;
+}
+
+.company-partner-description {
+    padding-top: 5vh;
+}
+
+.container-partner {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-partner .card-partner {
+    position: relative;
+    cursor: pointer;
+}
+
+.container-partner .card-partner .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container-partner .card-partner .face.face1 {
+    position: relative;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container-partner .card-partner:hover .face.face1 {
+    background: #A510DF;
+    transform: translateY(0);
+}
+
+.container-partner .card-partner .face.face1 .content {
+    /* opacity: 0.2; */
+    transition: 0.5s;
+}
+
+.container-partner .card-partner:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container-partner .card-partner .face.face1 .content img {
+    max-width: 100px;
+}
+
+.container-partner .card-partner .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container-partner .card-partner .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container-partner .card-partner:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.container-partner .card-partner .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-partner .card-partner .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    /* color: #333; */
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container-partner .card-partner .face.face2 .content a:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* card styling */
+.card-lob {
+    margin: 15px;
+    padding: 5px;
+    width: 550px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    border: none;
+    /* box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25); */
+    transition: all 0.2s;
+}
+
+.card-lob:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+    transform: scale(1.01);
+    background-color: #EE2DB2;
+    opacity: 0.75;
+    color: azure;
+}
+
+.card-lob-1 {
+    color: black;
+}
+
+.card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+}
+
+.cards-lob {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*  */
 
 .CardService {
     margin: auto;
     height: 25vh;
 }
 
-.PaddingCard {
-    padding: 10px 0px;
-}
 
 .PhotoService {
     margin: auto;
@@ -45,5 +199,10 @@
 }
 
 .CardText {
-    height: 16vh;
+    padding: 5vh;
+}
+
+.img-size {
+    width: 150px;
+    height: auto;
 }

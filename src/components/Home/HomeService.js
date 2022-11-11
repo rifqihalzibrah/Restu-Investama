@@ -8,11 +8,11 @@ import Stack from 'react-bootstrap/Stack';
 const HomeService = () => {
     return (
         <div>
-            <Container>
+            <Container className='home-service-align-vertical'>
                 <Row>
                     <Stack gap={2}>
-                        <div className="home-service-title">WHAT WE DO</div>
-                        <div className="home-service-description">
+                        <h2 className="font-2 mb-3">WHAT WE DO</h2>
+                        <div className="font-4">
                             <p>Restu Investama provides an integrated services related to corporate action consist of Equity fund raising both public and private offerings, Debt financing both public and private offerings, Leveraged deals for corporate bank financing, Share financing, Corporate finance advisory, Corporate  restructuring, Private equity financing. With the support of corporate finance specialist that is acknowledged as a professional with a wide range of experience and outstanding track record, Restu Investama is confident to serve clients with a solution based services.
                             </p>
                         </div>

@@ -5,14 +5,13 @@ import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import YudiWahyudi from '../../assets/Direktur Utama.jpg';
-import IndraWijaya from '../../assets/Direktur 1.jpg';
-import Darmawangsa from '../../assets/Direktur 2.jpg';
-import Saifudin from '../../assets/Direktur 3.jpeg';
+import IndraWijaya from '../../assets/Direktur 1.png';
+import Darmawangsa from '../../assets/Direktur 2.png';
+import Saifudin from '../../assets/Direktur 3.png';
 import Fendi from '../../assets/Komisioner Utama.jpg';
-import Rizal from '../../assets/Komisioner 1.jpeg';
-import Alfatiha from '../../assets/Komisioner 2.jpg';
+import Rizal from '../../assets/Komisioner 1.png';
+import Alfatiha from '../../assets/Komisioner 2.png';
 
 
 const Management = () => {
@@ -37,7 +36,9 @@ const Management = () => {
         <div>
             <Container>
                 <Row className="Padding">
-                    <Col lg={true} className="ManagementText">OUR MANAGEMENT</Col>
+                    <Col lg={true}>
+                        <h2 className='font-2'>OUR MANAGEMENT</h2>
+                    </Col>
                 </Row>
                 <Row>
                     <Col lg={true}>
@@ -45,50 +46,50 @@ const Management = () => {
                     </Col>
                     <Col lg={true}>
                         <Stack gap={3}>
-                            <div className="JobTittle">DIREKTUR UTAMA</div>
-                            <div className="NameTittle">Yudi Wahyudi</div>
-                            <div className="Description">a Master of Development Administration at the Indonesian State Administration Institute, has experience in capitalization, including improving the capital structure in many projects, managing and raising several companies in government projects, including in terms of precise capital administration and is supervised by a large conglomerate.
-                                one of the founders of Restu Investama who continuously make investments, capital and acquisitions in the form of Initial Public Oﬀering (IPO) for several company partners.
-                            </div>
+                            <h2 className="font-2">PRESIDENT DIRECTOR</h2>
+                            <h2 className="font-2-black">Yudi Wahyudi</h2>
+                            <p className="font-4">a Master of Development Administration at the Indonesian State Administration Institute, has experience in capitalization, including improving the capital structure in many projects, managing and raising several companies in government projects, including in terms of precise capital administration and is supervised by a large conglomerate. one of the founders of Restu Investama who continuously make investments, capital and acquisitions in the form of Initial Public Oﬀering (IPO) for several company partners.
+                            </p>
                         </Stack>
                     </Col>
                 </Row>
                 <Row className="Padding">
-                    <Col lg={true} className="JobTittle">DIRECTOR</Col>
-                </Row>
-                <Row>
                     <Col lg={true}>
-                        <Row className=
-                            "CardGroupMargin">
+                        <h2 className="font-2">DIRECTOR</h2>
+                    </Col>
+                </Row>
+                <Row className="service-padding-card">
+                    <Col lg={true}>
+                        <Row>
                             <Col lg={true}>
-                                <Card border="info" className="CardGroup" onClick={handleShowIndra}>
+                                <Card border="info" className="CardGroup pointer" onClick={handleShowIndra}>
                                     <Card.Img variant="top" src={IndraWijaya} className="CardPhoto" />
                                     <Card.Body>
                                         <Card.Title>Indra Wijaya</Card.Title>
                                         <Card.Text>
-                                            Direktur
+                                            Director
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col lg={true}>
-                                <Card border="info" className="CardGroup" onClick={handleShowDarma}>
+                                <Card border="info" className="CardGroup pointer" onClick={handleShowDarma}>
                                     <Card.Img variant="top" src={Darmawangsa} className="CardPhoto" />
                                     <Card.Body>
                                         <Card.Title>Darmawangsa Asis</Card.Title>
                                         <Card.Text>
-                                            Direktur
+                                            Director
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col lg={true}>
-                                <Card border="info" className="CardGroup" onClick={handleShowSaifudin}>
+                                <Card border="info" className="CardGroup pointer" onClick={handleShowSaifudin}>
                                     <Card.Img variant="top" src={Saifudin} className="CardPhoto" />
                                     <Card.Body>
                                         <Card.Title>Saifudin Hisbullah</Card.Title>
                                         <Card.Text>
-                                            Direktur
+                                            Director
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
@@ -100,41 +101,40 @@ const Management = () => {
                     <Col lg={true}>
                         <Stack gap={3}>
                             <div><img src={Fendi} className="DirutKomutPhoto" alt='MOH. FENDI SUSIYANTO'></img></div>
-                            <div className="JobTittleKomis">Komisioner Utama</div>
-                            <div className="NameTittleKomis">MOH. FENDI SUSIYANTO</div>
+                            <h2 className="font-2">PRESIDENT COMMISSIONER</h2>
+                            <h2 className="font-2">Moh. Fendi Susiyanto</h2>
                         </Stack>
                     </Col>
-                    <Col lg={true}>
-                        <div className="Description">Komisaris utama Fendi Susiyanto was a professional in banking and Capital Market & Investment Expert for more than 25 years. His complete expertise are in the area of Banking, Investment and finance; Capital Market & Investment; Asset Management, Investment Banking
-                            (Pre-IPO and IPO, corporate restructuring, Private equity, Behavioral finance and technical analysis; Asset Allocation and Portfolio Management, Business Valuation; Wealth management; Financial Planning, Financial and business Modeling, and trading system development.</div>
+                    <Col lg={true} className="my-auto">
+                        <p className="font-4">President Commissioner Fendi Susiyanto was a professional in banking and Capital Market & Investment Expert for more than 25 years. His complete expertise are in the area of Banking, Investment and finance; Capital Market & Investment; Asset Management, Investment Banking (Pre-IPO and IPO, corporate restructuring, Private equity, Behavioral finance and technical analysis; Asset Allocation and Portfolio Management, Business Valuation; Wealth management; Financial Planning, Financial and business Modeling, and trading system development.</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={true}>
-                        <div className="JobTittleKomis">Commissioner</div>
+                        <h2 className="font-2">COMMISSIONER</h2>
                     </Col>
                 </Row>
                 <Row className="Padding justify-content-md-center" >
                     <Col lg={8}>
                         <Row className="CardGroupMargin">
                             <Col lg={true}>
-                                <Card border="info" className="CardGroup" onClick={handleShowRizal}>
+                                <Card border="info" className="CardGroup pointer" onClick={handleShowRizal}>
                                     <Card.Img variant="top" src={Rizal} className="CardPhoto" />
                                     <Card.Body>
                                         <Card.Title>Rizal Yassir</Card.Title>
                                         <Card.Text>
-                                            Komisaris
+                                            Commissioner
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col lg={true}>
-                                <Card border="info" className="CardGroup" onClick={handleShowAlfatiha}>
+                                <Card border="info" className="CardGroup pointer" onClick={handleShowAlfatiha}>
                                     <Card.Img variant="top" src={Alfatiha} className="CardPhoto" />
                                     <Card.Body>
                                         <Card.Title>Alfatiha Baharnuradi</Card.Title>
                                         <Card.Text>
-                                            Komisaris
+                                            Commissioner
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>

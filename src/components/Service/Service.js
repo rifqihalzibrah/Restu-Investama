@@ -7,9 +7,15 @@ import CompanyPartner from './CompanyPartner'
 const Service = () => {
     return (
         <div>
-            <LineOfBusiness />
-            <CorporateAction />
-            <CompanyPartner />
+            <div className='line-of-business mb-5'>
+                <LineOfBusiness />
+            </div>
+            <div className='corporate-action mb-5 '>
+                <CorporateAction />
+            </div>
+            <div className='company-partner '>
+                <CompanyPartner />
+            </div>
         </div>
     )
 }

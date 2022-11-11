@@ -6,3 +6,73 @@
 .navigation-logo-image {
     width: 45px;
 }
+
+.footer {
+    background-color: #0a2760;
+    color: #ffffff;
+}
+
+/* Global */
+
+.Button {
+    background-color: #9A7AF1;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Button:hover {
+    transform: scale(1.1) perspective(1px);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.font-1 {
+    color: #007EC4;
+    font-weight: bold;
+}
+
+.font-2 {
+    color: #007EC4;
+    font-weight: bold;
+}
+
+.font-2-black {
+    font-weight: bold;
+}
+
+.font-4 {
+    text-align: justify;
+}
+
+.font-4-bold {
+    text-align: center;
+    font-weight: bold;
+}
+
+.font-4-center {
+    text-align: center;
+}
+
+.carousel-card {
+    height: 350px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    visibility: hidden;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}

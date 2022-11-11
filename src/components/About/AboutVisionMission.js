@@ -9,18 +9,31 @@ const AboutVisionMission = () => {
     return (
         <div>
             <Container>
-                <Row className="about-vision-mission-title">Our Vision & Mission</Row>
                 <Row>
-                    <Col>
-                        <Stack gap={2}>
-                            <div className="about-vision-mission-title">Vision</div>
-                            <div className="about-vision-mission-text">A world-class active investment firm in Indonesia that promotes a strong business character to create value for stakeholders and the Indonesian nation.</div>
-                            <div className="about-vision-mission-title">Mission</div>
-                            <div className="about-vision-mission-text">Be a partner of choice for investors interested in participating in Indonesia's growth dynamics.</div>
-                        </Stack>
+                    <Col lg={true} className="about-vision-mission-align-vertical">
+                        <Row>
+                            <Col lg={true}>
+                                <h2 className="font-2">VSION</h2>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col lg={true}>
+                                <p className="font-4">A world-class active investment firm in Indonesia that promotes a strong business character to create value for stakeholders and the Indonesian nation.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col lg={true}>
+                                <h2 className="font-2">MISSION</h2>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col lg={true}>
+                                <p className="font-4">Be a partner of choice for investors interested in participating in Indonesia's growth dynamics.</p>
+                            </Col>
+                        </Row>
                     </Col>
-                    <Col>
-                        <img src={aboutImage} alt="About Background" />
+                    <Col lg={true}>
+                        <img className="responsive-image" src={aboutImage} alt="About Background" />
                     </Col>
                 </Row>
             </Container>

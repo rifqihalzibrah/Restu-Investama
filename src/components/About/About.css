@@ -1,4 +1,41 @@
+/* Global */
+
+.Button {
+    background-color: #9A7AF1;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Button:hover {
+    transform: scale(1.1) perspective(1px);
+}
+
+.font-1 {
+    color: #007EC4;
+    font-weight: bold;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
 /* Description */
+
+.about-description {
+    /* height: 90vh; */
+    padding-top: 8vh;
+}
 
 .desc-title {
     font-size: 40px;
@@ -14,6 +51,10 @@
 
 /* Vision Mission */
 
+.about-vision-mission {
+    padding-top: 20vh;
+}
+
 .about-vision-mission-title {
     text-align: justify;
     font-size: 40px;
@@ -26,21 +67,25 @@
     text-align: justify
 }
 
-/* Value */
-
-.value-title {
-    text-align: justify;
-    font-size: 40px;
-    font-weight: bold;
-    color: #007EC4;
+.about-vision-mission-align-vertical {
+    margin: auto;
 }
 
-.value-description {
-    font-size: 18px;
-    text-align: justify
+/* Value */
+
+.about-value {
+    padding-top: 20vh;
+}
+
+.value-align-vertical {
+    margin: auto;
 }
 
 /* Character */
+
+.about-character {
+    padding-top: 9vh;
+}
 
 .character-title {
     text-align: center;
@@ -50,6 +95,10 @@
 }
 
 /* Management */
+
+.about-management {
+    padding-top: 20vh;
+}
 
 .JustifyMid {
     margin: auto;

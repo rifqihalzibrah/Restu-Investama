@@ -20,8 +20,8 @@ const HomeVisionMission = () => {
         <div>
             <Container>
                 <Row>
-                    <Col lg={8} className="home-vision-mission-title">
-                        <div>RESTU INVESTAMA</div>
+                    <Col lg={8} className="my-auto">
+                        <h1 className="font-1">RESTU INVESTAMA</h1>
                     </Col>
                     <Col lg={true} className="home-vision-mission-logo">
                         <img src={Logo} className="home-vision-mission-logo-image" alt='logo'></img>
@@ -29,18 +29,18 @@ const HomeVisionMission = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <div className='home-vision-mission-carousel'>
-                            <Carousel variant="dark" activeIndex={index} onSelect={handleSelect}>
+                        <div>
+                            <Carousel variant="dark" activeIndex={index} onSelect={handleSelect} className='home-vision-mission-carousel'>
                                 <Carousel.Item>
-                                    <div className='home-vision-mission-text'>
-                                        <p>A world-class active investment firm in Indonesia that promotes a strong business character to
-                                            create value for stakeholders and the Indonesian nation.</p>
+                                    <div className='carousel-card'>
+                                        <h2>A world-class active investment firm in Indonesia that promotes a strong business character to
+                                            create value for stakeholders and the Indonesian nation.</h2>
                                         <a href='#home-about'><button className="Button">About Us</button></a>
                                     </div>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <div className='home-vision-mission-text'>
-                                        <p>Be a partner of choice for investors interested in participating in Indonesia's growth dynamics.</p>
+                                    <div className='carousel-card'>
+                                        <h2>Be a partner of choice for investors interested in participating in Indonesia's growth dynamics.</h2>
                                         <a href='#home-about'><button className="Button">About Us</button></a>
                                     </div>
                                 </Carousel.Item>

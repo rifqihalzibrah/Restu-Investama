@@ -9,19 +9,30 @@ import "./Home.css";
 
 function HomeContact() {
     return (
-        <div className="contact" id="contact">
+        <div className="contact">
             <Container>
-                <Row className="contact-title">
-                    <Col>Get In Touch</Col>
+                <Row className="mb-3">
+                    <Col lg={true}>
+                        <div>
+                            <h2 className="font-2">GET IN TOUCH</h2>
+                        </div>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <Stack gap={1}>
-                            <div className="">Location</div>
+                    <Col lg={true}>
+                        <div className="font-2">
+                            <h2>Location</h2>
+                        </div>
+                    </Col>
+                    <Col lg={true}></Col>
+                </Row>
+                <Row>
+                    <Col lg={true}>
+                        <Stack gap={1} className="pb-5">
                             <div><Location /></div>
                         </Stack>
                     </Col>
-                    <Col>
+                    <Col lg={true}>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Control type="email" placeholder="Enter email" />

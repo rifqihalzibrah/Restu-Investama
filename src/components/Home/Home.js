@@ -8,16 +8,28 @@ import HomeContact from './HomeContact.js'
 const Home = () => {
     return (
         <div>
-            <div className='vision-mission bg-danger'>
+            <div className='home-vision-mission area'>
                 <HomeVisionMission />
+                <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
-            <div className='home-about bg-success' id='home-about'>
+            <div className='home-about' id='home-about'>
                 <HomeAbout />
             </div>
-            <div className='home-service bg-warning'>
+            <div className='home-service background-color-home-service'>
                 <HomeService />
             </div>
-            <div className='contact' id='contact'>
+            <div className='home-contact' id='contact'>
                 <HomeContact />
             </div>
         </div>

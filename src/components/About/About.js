@@ -8,12 +8,22 @@ import Management from './Management'
 
 const About = () => {
     return (
-        <div className='about'>
-            <Description />
-            <AboutVisionMission />
-            <Value />
-            <Character />
-            <Management />
+        <div>
+            <div className='about-description'>
+                <Description />
+            </div>
+            <div className='about-vision-mission'>
+                <AboutVisionMission />
+            </div>
+            <div className='about-value'>
+                <Value />
+            </div>
+            <div className='about-character'>
+                <Character />
+            </div>
+            <div className='about-management'>
+                <Management />
+            </div>
         </div>
     )
 }

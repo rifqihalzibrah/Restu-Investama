@@ -24,10 +24,10 @@ function Navigation() {
                 <Nav.Link eventKey="3" as={Link} to='/about'>About</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="4" as={Link} to='/contact'>Contact</Nav.Link>
+                <Nav.Link eventKey="5" as={Link} to='/news'>News</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="5" as={Link} to='/news'>News</Nav.Link>
+                <Nav.Link eventKey="4" as={Link} to='/contact'>Contact</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

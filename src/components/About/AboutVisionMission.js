@@ -13,8 +13,9 @@ const AboutVisionMission = () => {
                     <Col lg={true} className="about-vision-mission-align-vertical">
                         <Row>
                             <Col lg={true}>
-                                <h2 className="font-2">VSION</h2>
+                                <h2 className="font-2-left">VISION</h2> <hr />
                             </Col>
+
                         </Row>
                         <Row>
                             <Col lg={true}>
@@ -22,8 +23,8 @@ const AboutVisionMission = () => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col lg={true}>
-                                <h2 className="font-2">MISSION</h2>
+                            <Col lg={true} className="mt-5">
+                                <h2 className="font-2-left">MISSION</h2> <hr />
                             </Col>
                         </Row>
                         <Row>

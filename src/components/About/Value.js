@@ -6,9 +6,9 @@ import Col from 'react-bootstrap/Col'
 const Value = () => {
     return (
         <div>
-            <Container>
+            <Container className="mt-3">
                 <Row>
-                    <Col lg={true} className=" value-align-vertical"><h2 className='font-2'>OUR VALUES</h2></Col>
+                    <Col lg={true} className=" value-align-vertical pb-5"><h2 className='font-2'>OUR VALUES</h2></Col>
                     <Col lg={true}>
                         <h2 className="font-2">Excellence</h2>
                         <p className="font-4">

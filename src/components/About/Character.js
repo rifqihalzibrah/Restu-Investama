@@ -11,31 +11,29 @@ const Character = () => {
                 <Row className='justify-content-md-center mb-5'>
                     <h2 className='font-2'>OUR COMPANY CHARACTERS</h2>
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row>
                     <Col lg={true}>
-                        <Card>
-                            <img src="" alt="" />
-                            <Card.Body>
-                                <Card.Title className='font-3'>Integrity</Card.Title>
-                            </Card.Body>
-                        </Card>
+                        <div className="card-ourcomp card-1-ourcomp">
+                            <div>
+                                <h3 className="card__title">Integrity</h3>
+                            </div>
+                        </div>
                     </Col>
                     <Col lg={true}>
-                        <Card>
-                            <img src="" alt="" />
-                            <Card.Body>
-                                <Card.Title className='font-3'>Passion and Energy</Card.Title>
-                            </Card.Body>
-                        </Card>
+                        <div className="card-ourcomp card-1-ourcomp">
+                            <div>
+                                <h3 className="card__title">Passion and Energy</h3>
+                            </div>
+                        </div>
                     </Col>
                     <Col lg={true}>
-                        <Card>
-                            <img src="" alt="" />
-                            <Card.Body>
-                                <Card.Title className='font-3'>Compotence and Capability</Card.Title>
-                            </Card.Body>
-                        </Card>
+                        <div className="card-ourcomp card-1-ourcomp">
+                            <div>
+                                <h3 className="card__title">Compotence and Capability</h3>
+                            </div>
+                        </div>
                     </Col>
+
                 </Row>
             </Container>
         </div>

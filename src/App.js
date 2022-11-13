@@ -9,6 +9,7 @@ import Home from './components/Home/Home.js'
 import About from './components/About/About.js';
 import Service from './components/Service/Service.js'
 import Contact from './components/Contact/Contact.js';
+import News from './components/News/News.js';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/service' element={<Service />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/news' element={<News />} />
         </Routes>
         <Footer />
       </BrowserRouter>

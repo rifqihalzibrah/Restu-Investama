@@ -2,25 +2,44 @@ import React from 'react'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import { Link } from 'react-router-dom'
+import Nav from 'react-bootstrap/Nav';
 
 const Footer = () => {
+    const current = new Date();
+    const year = current.getFullYear();
     return (
-        <div className="footer mt-5">
+        <div className="footer mt-5 py-3">
             <Container>
                 <Row>
-                    <Col>PT. RESTU INTI NUSA ABADI</Col>
-                    <Col>Services</Col>
-                    <Col>Contact</Col>
+                    <Col><strong>© {year} PT. RESTU INTI NUSA ABADI</strong></Col>
+                    <Col><strong>COMPANY</strong></Col>
+                    <Col><strong>CONTACT</strong></Col>
                 </Row>
                 <Row>
                     <Col>
-                        <p>A world-class active investment firm in Indonesia that promotes a strong business character to create value for stakeholders and the Indonesian nation.</p>
+                        <p>
+                            Registration No.: <br />
+                            License Number:
+                        </p>
                     </Col>
-                    <Col>Services</Col>
-                    <Col>Contact</Col>
+                    <Col>
+                        <div>
+                            <Nav className="footer-link" as={Link} to='/about'>About Us</Nav>
+                        </div>
+                        <div>
+                            <Nav className="footer-link" as={Link} to='/service'>Service</Nav>
+                        </div>
+                        <div>
+                            <Nav className="footer-link" as={Link} to='/news'>News</Nav>
+                        </div>
+                    </Col>
+                    <Col>
+                        Jl. Arteri Pd. Indah No.10, RW.6, Kby. Lama Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240
+                    </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
     )
 }
 

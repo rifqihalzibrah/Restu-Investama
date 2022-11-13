@@ -4,14 +4,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import Card from 'react-bootstrap/Card';
-import YudiWahyudi from '../../assets/Direktur Utama.jpg';
-import IndraWijaya from '../../assets/Direktur 1.png';
-import Darmawangsa from '../../assets/Direktur 2.png';
-import Saifudin from '../../assets/Direktur 3.png';
-import Fendi from '../../assets/Komisioner Utama.jpg';
-import Rizal from '../../assets/Komisioner 1.png';
-import Alfatiha from '../../assets/Komisioner 2.png';
+import YudiWahyudi from '../../assets/Direktur_Utama.png';
+import IndraWijaya from '../../assets/Direktur_1.png';
+import Darmawangsa from '../../assets/Direktur_2.png';
+import Saifudin from '../../assets/Direktur_3.png';
+import Fendi from '../../assets/Komisioner_Utama.png';
+import Rizal from '../../assets/Komisioner_1.png';
+import Alfatiha from '../../assets/Komisioner_2.png';
 
 
 const Management = () => {
@@ -44,7 +43,7 @@ const Management = () => {
                     <Col lg={true}>
                         <img src={YudiWahyudi} className="DirutKomutPhoto" alt='Yudi Wahyudi'></img>
                     </Col>
-                    <Col lg={true}>
+                    <Col lg={true} className="value-align-vertical py-5 about-description-container px-5">
                         <Stack gap={3}>
                             <h2 className="font-2">PRESIDENT DIRECTOR</h2>
                             <h2 className="font-2-black">Yudi Wahyudi</h2>
@@ -53,60 +52,71 @@ const Management = () => {
                         </Stack>
                     </Col>
                 </Row>
-                <Row className="Padding">
+                <Row className="Padding my-5">
                     <Col lg={true}>
                         <h2 className="font-2">DIRECTOR</h2>
                     </Col>
                 </Row>
-                <Row className="service-padding-card">
-                    <Col lg={true}>
-                        <Row>
-                            <Col lg={true}>
-                                <Card border="info" className="CardGroup pointer" onClick={handleShowIndra}>
-                                    <Card.Img variant="top" src={IndraWijaya} className="CardPhoto" />
-                                    <Card.Body>
-                                        <Card.Title>Indra Wijaya</Card.Title>
-                                        <Card.Text>
-                                            Director
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col lg={true}>
-                                <Card border="info" className="CardGroup pointer" onClick={handleShowDarma}>
-                                    <Card.Img variant="top" src={Darmawangsa} className="CardPhoto" />
-                                    <Card.Body>
-                                        <Card.Title>Darmawangsa Asis</Card.Title>
-                                        <Card.Text>
-                                            Director
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col lg={true}>
-                                <Card border="info" className="CardGroup pointer" onClick={handleShowSaifudin}>
-                                    <Card.Img variant="top" src={Saifudin} className="CardPhoto" />
-                                    <Card.Body>
-                                        <Card.Title>Saifudin Hisbullah</Card.Title>
-                                        <Card.Text>
-                                            Director
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                        </Row>
+                <Row className="mb-5">
+                    <Col lg={true} className="pt-3">
+                        <div className='team-container-center' onClick={handleShowIndra}>
+                            <div className="our-team">
+                                <div className="picture">
+                                    <img className="img-fluid" src={IndraWijaya} />
+                                </div>
+                                <div className="team-content">
+                                    <h5 className="name">Indrawijaya</h5>
+                                    <h4 className="title">Director</h4>
+                                </div>
+                                <div className="social">
+                                    <div className='bottom'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={true} className="pt-3">
+                        <div className='team-container-center' onClick={handleShowDarma}>
+                            <div className="our-team">
+                                <div className="picture">
+                                    <img className="img-fluid" src={Darmawangsa} />
+                                </div>
+                                <div className="team-content">
+                                    <h5 className="name">Darmawangsa Asis</h5>
+                                    <h4 className="title">Director</h4>
+                                </div>
+                                <div className="social">
+                                    <div className='bottom'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={true} className="pt-3">
+                        <div className='team-container-center' onClick={handleShowSaifudin}>
+                            <div className="our-team">
+                                <div className="picture">
+                                    <img className="img-fluid" src={Saifudin} />
+                                </div>
+                                <div className="team-content">
+                                    <h5 className="name">Saifudin Hisbullah</h5>
+                                    <h4 className="title">Director</h4>
+                                </div>
+                                <div className="social">
+                                    <div className='bottom'></div>
+                                </div>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
-                <Row className="Padding">
-                    <Col lg={true}>
+                <Row className="Padding my-5">
+                    <Col lg={true} className="my-auto pt-5 about-description-container px-5 order-2 order-lg-1">
                         <Stack gap={3}>
-                            <div><img src={Fendi} className="DirutKomutPhoto" alt='MOH. FENDI SUSIYANTO'></img></div>
                             <h2 className="font-2">PRESIDENT COMMISSIONER</h2>
-                            <h2 className="font-2">Moh. Fendi Susiyanto</h2>
+                            <h2 className="font-2-black">Moh. Fendi Susiyanto</h2>
+                            <p className="font-4">President Commissioner Fendi Susiyanto was a professional in banking and Capital Market & Investment Expert for more than 25 years. His complete expertise are in the area of Banking, Investment and finance; Capital Market & Investment; Asset Management, Investment Banking (Pre-IPO and IPO, corporate restructuring, Private equity, Behavioral finance and technical analysis; Asset Allocation and Portfolio Management, Business Valuation; Wealth management; Financial Planning, Financial and business Modeling, and trading system development.</p>
                         </Stack>
                     </Col>
-                    <Col lg={true} className="my-auto">
-                        <p className="font-4">President Commissioner Fendi Susiyanto was a professional in banking and Capital Market & Investment Expert for more than 25 years. His complete expertise are in the area of Banking, Investment and finance; Capital Market & Investment; Asset Management, Investment Banking (Pre-IPO and IPO, corporate restructuring, Private equity, Behavioral finance and technical analysis; Asset Allocation and Portfolio Management, Business Valuation; Wealth management; Financial Planning, Financial and business Modeling, and trading system development.</p>
+                    <Col lg={true} className="my-auto order-1 order-lg-2">
+                        <div><img src={Fendi} className="DirutKomutPhoto" alt='MOH. FENDI SUSIYANTO'></img></div>
                     </Col>
                 </Row>
                 <Row>
@@ -117,33 +127,43 @@ const Management = () => {
                 <Row className="Padding justify-content-md-center" >
                     <Col lg={8}>
                         <Row className="CardGroupMargin">
-                            <Col lg={true}>
-                                <Card border="info" className="CardGroup pointer" onClick={handleShowRizal}>
-                                    <Card.Img variant="top" src={Rizal} className="CardPhoto" />
-                                    <Card.Body>
-                                        <Card.Title>Rizal Yassir</Card.Title>
-                                        <Card.Text>
-                                            Commissioner
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
+                            <Col lg={true} className="pt-5">
+                                <div className='team-container-center' onClick={handleShowRizal}>
+                                    <div className="our-team">
+                                        <div className="picture">
+                                            <img className="img-fluid" src={Rizal} />
+                                        </div>
+                                        <div className="team-content">
+                                            <h5 className="name">Rizal Yassir</h5>
+                                            <h4 className="title">Commissioner</h4>
+                                        </div>
+                                        <div className="social">
+                                            <div className='bottom'></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </Col>
-                            <Col lg={true}>
-                                <Card border="info" className="CardGroup pointer" onClick={handleShowAlfatiha}>
-                                    <Card.Img variant="top" src={Alfatiha} className="CardPhoto" />
-                                    <Card.Body>
-                                        <Card.Title>Alfatiha Baharnuradi</Card.Title>
-                                        <Card.Text>
-                                            Commissioner
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
+                            <Col lg={true} className="pt-5">
+                                <div className='team-container-center' onClick={handleShowAlfatiha}>
+                                    <div className="our-team">
+                                        <div className="picture">
+                                            <img className="img-fluid" src={Alfatiha} />
+                                        </div>
+                                        <div className="team-content">
+                                            <h5 className="name">Alfatiha Bahar Nuradi</h5>
+                                            <h4 className="title">Commissioner</h4>
+                                        </div>
+                                        <div className="social">
+                                            <div className='bottom'></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </Col>
                         </Row>
                     </Col>
                 </Row>
             </Container>
-            <Offcanvas show={visibleWithBackdropIndra} onHide={handleCloseIndra}>
+            <Offcanvas show={visibleWithBackdropIndra} onHide={handleCloseIndra} placement="end">
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title className="NameTittle">Indra Wijaya</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -153,7 +173,7 @@ const Management = () => {
                     INDRAWIJAYA
                 </Offcanvas.Body>
             </Offcanvas>
-            <Offcanvas show={visibleWithBackdropDarma} onHide={handleCloseDarma}>
+            <Offcanvas show={visibleWithBackdropDarma} onHide={handleCloseDarma} placement="end">
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title className="NameTittle">Darmawangsa Asis</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -162,7 +182,7 @@ const Management = () => {
                     DARMAWANGSA ASIS
                 </Offcanvas.Body>
             </Offcanvas>
-            <Offcanvas show={visibleWithBackdropSaifudin} onHide={handleCloseSaifudin}>
+            <Offcanvas show={visibleWithBackdropSaifudin} onHide={handleCloseSaifudin} placement="end">
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title className="NameTittle">Saifudin Hisbullah</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -171,7 +191,7 @@ const Management = () => {
                     SAIFUDIN HISBULLAH
                 </Offcanvas.Body>
             </Offcanvas>
-            <Offcanvas show={visibleWithBackdropRizal} onHide={handleCloseRizal}>
+            <Offcanvas show={visibleWithBackdropRizal} onHide={handleCloseRizal} placement="end">
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title className="NameTittle">Rizal Yasir</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -179,7 +199,7 @@ const Management = () => {
                     Has a background as a Legal practitioner, Advocate/ Lawyer, in particular handling many cases in the Field of Corruption, Criminal Law, Civil Law and also as a corporate lawyer in various companies. He is also a President Director of an Outsourcing company that has long existed in the Morowali Nickel Mine, and has many clients in Indonesia with a total number of more than 1000 employees
                 </Offcanvas.Body>
             </Offcanvas>
-            <Offcanvas show={visibleWithBackdropAlfatiha} onHide={handleCloseAlfatiha}>
+            <Offcanvas show={visibleWithBackdropAlfatiha} onHide={handleCloseAlfatiha} placement="end">
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title className="NameTittle">Alfatiha Baharnuradi</Offcanvas.Title>
                 </Offcanvas.Header>

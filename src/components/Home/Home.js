@@ -10,18 +10,20 @@ const Home = () => {
         <div>
             <div className='home-vision-mission area'>
                 <HomeVisionMission />
-                <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div>
+                    <ul className="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
             <div className='home-about' id='home-about'>
                 <HomeAbout />

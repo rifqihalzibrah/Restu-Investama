@@ -28,20 +28,18 @@ const HomeVisionMission = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col className="pt-5">
                         <div>
                             <Carousel variant="dark" activeIndex={index} onSelect={handleSelect} className='home-vision-mission-carousel'>
                                 <Carousel.Item>
                                     <div className='carousel-card'>
                                         <h2>A world-class active investment firm in Indonesia that promotes a strong business character to
                                             create value for stakeholders and the Indonesian nation.</h2>
-                                        <a href='#home-about'><button className="Button">About Us</button></a>
                                     </div>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <div className='carousel-card'>
                                         <h2>Be a partner of choice for investors interested in participating in Indonesia's growth dynamics.</h2>
-                                        <a href='#home-about'><button className="Button">About Us</button></a>
                                     </div>
                                 </Carousel.Item>
                             </Carousel>

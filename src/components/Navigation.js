@@ -26,6 +26,9 @@ function Navigation() {
               <Nav.Item>
                 <Nav.Link eventKey="4" as={Link} to='/contact'>Contact</Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="5" as={Link} to='/news'>News</Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>

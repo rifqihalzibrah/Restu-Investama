@@ -26,25 +26,25 @@ const LineOfBusiness = () => {
                             <div>
                                 <h3 className="card__title">PRE-IPO FINANCING</h3>
                             </div>
-                            <span className="card__title"> Restu Investama covers the financial expenses for the IPO process of the client including the expenses for the professional support fee from the preliminary step until to the date of listing.</span>
+                            <div className="mt-5"> Restu Investama covers the financial expenses for the IPO process of the client including the expenses for the professional support fee from the preliminary step until to the date of listing.</div>
                         </div>
                         <div className="card-lob card-lob-1">
                             <div>
                                 <h3 className="card__title">INITIAL PUBLIC OFFERING</h3>
                             </div>
-                            <span className="card__title"> Restu Investama assists and advises the process of offering new shares or old shares of a private company to transform the company to be a public listed company. Through IPO process allows the company to raise funds from public.</span>
+                            <div className="mt-5"> Restu Investama assists and advises the process of offering new shares or old shares of a private company to transform the company to be a public listed company. Through IPO process allows the company to raise funds from public.</div>
                         </div>
                         <div className="card-lob card-lob-1">
                             <div>
                                 <h3 className="card__title">RESTRUCTURING</h3>
                             </div>
-                            <span className="card__title"> The restructuring process consist of identification and determination of the area required to be restructured followed by creating short-term and long-term plans to correct weaknesses.</span>
+                            <div className="mt-5"> The restructuring process consist of identification and determination of the area required to be restructured followed by creating short-term and long-term plans to correct weaknesses.</div>
                         </div>
                         <div className="card-lob card-lob-1">
                             <div>
                                 <h3 className="card__title">SHARE FINANCE</h3>
                             </div>
-                            <span className="card__title"> On this line of business, Restu Investama fully assists the client to obtain a share financing from foreign investment firm. The process started from the initial stage until the client secure the fund.</span>
+                            <div className="mt-5"> On this line of business, Restu Investama fully assists the client to obtain a share financing from foreign investment firm. The process started from the initial stage until the client secure the fund.</div>
                         </div>
                     </div>
                 </Row>

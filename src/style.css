@@ -10,6 +10,12 @@
 .footer {
     background-color: #0a2760;
     color: #ffffff;
+    text-align: justify;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
 }
 
 /* Global */

@@ -15,7 +15,7 @@ const About = () => {
             <div className='about-vision-mission'>
                 <AboutVisionMission />
             </div>
-            <div className='about-value'>
+            <div className='about-value py-5'>
                 <Value />
             </div>
             <div className='about-character'>

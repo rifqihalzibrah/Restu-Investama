@@ -40,36 +40,27 @@ const CorporateAction = () => {
                     <Col lg={true}>
                         <div className="data-card mx-auto" onClick={handleShowPreIPO}>
                             <h3>PRE-IPO</h3>
-                            <p>Indrawijaya Rangkuti, MBA, CTA, is an asset manager for private...</p>
+                            <p className='font-4'>Pre-IPO, or pre-initial public offering, is a branch of private equity investing that concentrates on...</p>
                             <span className="link-text">
                                 View More
-                                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#007EC4" />
-                                </svg>
                             </span>
                         </div>
                     </Col>
                     <Col lg={true}>
                         <div className="data-card mx-auto" onClick={handleShowIPO}>
                             <h3>IPO</h3>
-                            <p>Indrawijaya Rangkuti, MBA, CTA, is an asset manager for private...</p>
+                            <p className='font-4'>IPO is a public sale in which a firm sells shares to institutional investors as well as typically to retail individual investors....</p>
                             <span className="link-text">
                                 View More
-                                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#007EC4" />
-                                </svg>
                             </span>
                         </div>
                     </Col>
                     <Col lg={true}>
                         <div className="data-card mx-auto" onClick={handleShowPostIPO}>
                             <h3>POST-IPO</h3>
-                            <p>Indrawijaya Rangkuti, MBA, CTA, is an asset manager for private...</p>
+                            <p className='font-4'>Post-IPO refers to the period after a company's initial public offering of stock which marks its entry into the equity financial markets...</p>
                             <span className="link-text">
                                 View More
-                                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#007EC4" />
-                                </svg>
                             </span>
                         </div>
                     </Col>
@@ -80,9 +71,18 @@ const CorporateAction = () => {
                     <Offcanvas.Title className="NameTittle">Pre IPO</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="Description">
-                    Indrawijaya Rangkuti, MBA, CTA, is an asset manager for private clients and companies for investment and business advisory (e.g., IPO, mergers and acquisitions, restructuring) with Restu Investama Indonesia. He is also an independent trader coach and often collaborates with IFTA members to share market outlooks and trading knowledge. As a trader and analyst, he researches how to simplify and implement WD Gann's theory to be more applicable. Rangkuti was a speaker at the 2020 IFTA Annual Conference.
-                    Rangkuti is the treasurer of his society, AATI (Asosiasi Analis Teknikal Indonesia). He has been a speaker on the stock market, forex market, commodities market, and technical analysis on several TV programs and at various seminars and workshops related to technical analysis applications for investors and traders. In addition, Rangkuti is also a lecturer at the Jakarta Business School.
-                    INDRAWIJAYA
+                    <div>
+                        <p>Pre-IPO, or pre-initial public offering, is a branch of private equity investing that concentrates on late-stage businesses that are anticipated to be close to a liquidity event (most commonly an IPO). Pre-IPO investors make investments at later points in a private company's history of finance.</p>
+                        <ul>
+                            <li>Assist client in regard to the process of corporate restructuring-turing for listing purposes</li>
+                            <li>Providing business and assets restructuring services</li>
+                            <li>Providing advices in taxation and funding implications related to Pre IPO restructuring</li>
+                            <li>Assisting clients to evaluate business prospects, strategic plans and financial position</li>
+                            <li>Assisting clients to evaluate investment attractiveness of a company</li>
+                            <li>Valuating equity in view of business prospects </li>
+                            <li>Financing the whole process above</li>
+                        </ul>
+                    </div>
                 </Offcanvas.Body>
             </Offcanvas>
             <Offcanvas show={visibleWithBackdropIPO} onHide={handleCloseIPO} placement="end">
@@ -90,9 +90,17 @@ const CorporateAction = () => {
                     <Offcanvas.Title className="NameTittle">IPO</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="Description">
-                    Indrawijaya Rangkuti, MBA, CTA, is an asset manager for private clients and companies for investment and business advisory (e.g., IPO, mergers and acquisitions, restructuring) with Restu Investama Indonesia. He is also an independent trader coach and often collaborates with IFTA members to share market outlooks and trading knowledge. As a trader and analyst, he researches how to simplify and implement WD Gann's theory to be more applicable. Rangkuti was a speaker at the 2020 IFTA Annual Conference.
-                    Rangkuti is the treasurer of his society, AATI (Asosiasi Analis Teknikal Indonesia). He has been a speaker on the stock market, forex market, commodities market, and technical analysis on several TV programs and at various seminars and workshops related to technical analysis applications for investors and traders. In addition, Rangkuti is also a lecturer at the Jakarta Business School.
-                    INDRAWIJAYA
+                    <div>
+                        <p>IPO is a public sale in which a firm sells shares to institutional investors as well as typically to retail individual investors</p>
+                        <ul>
+                            <li>Assisting in all preparation and fulfillment of listing requirements</li>
+                            <li>Assisting the company in order to find suitable oﬀering structure and period;</li>
+                            <li>Assisting in the preparation of marketing materials</li>
+                            <li>Providing advices on pricing and allocation of the securities oﬀered</li>
+                            <li>Coordinating with related professional experts</li>
+                            <li>Drafting and reviewing of IPO related documents or agreements </li>
+                        </ul>
+                    </div>
                 </Offcanvas.Body>
             </Offcanvas>
             <Offcanvas show={visibleWithBackdropPostIPO} onHide={handleClosePostIPO} placement="end">
@@ -100,9 +108,15 @@ const CorporateAction = () => {
                     <Offcanvas.Title className="NameTittle">Post IPO</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="Description">
-                    Indrawijaya Rangkuti, MBA, CTA, is an asset manager for private clients and companies for investment and business advisory (e.g., IPO, mergers and acquisitions, restructuring) with Restu Investama Indonesia. He is also an independent trader coach and often collaborates with IFTA members to share market outlooks and trading knowledge. As a trader and analyst, he researches how to simplify and implement WD Gann's theory to be more applicable. Rangkuti was a speaker at the 2020 IFTA Annual Conference.
-                    Rangkuti is the treasurer of his society, AATI (Asosiasi Analis Teknikal Indonesia). He has been a speaker on the stock market, forex market, commodities market, and technical analysis on several TV programs and at various seminars and workshops related to technical analysis applications for investors and traders. In addition, Rangkuti is also a lecturer at the Jakarta Business School.
-                    INDRAWIJAYA
+                    <div>
+                        <p>Post-IPO refers to the period after a company's initial public offering of stock which marks its entry into the equity financial markets. The commitments and business strategies the company agreed to in the earlier stages are carried out during the post-IPO transaction stage.</p>
+                        <ul>
+                            <li>Rights issuance;</li>
+                            <li>Material transactions</li>
+                            <li>Transactions with aﬃliated parties and/or with conflict of interest</li>
+                            <li>Reserve take-overs.</li>
+                        </ul>
+                    </div>
                 </Offcanvas.Body>
             </Offcanvas>
         </div>

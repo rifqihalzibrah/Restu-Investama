@@ -6,11 +6,12 @@ import Col from "react-bootstrap/Col";
 const Description = () => {
     return (
         <div>
-            <Container>
+            <Container className="about-description-container py-3 px-5">
                 <Row>
                     <Col lg={true}>
                         <h1 className="font-1 pb-5">ABOUT OUR COMPANY</h1>
                         <h2 className="font-2-black pb-3">PT. RESTU INTI NUSA ABADI</h2>
+
                         <div className="font-4 pb-3">
                             PT. Restu Inti Nusa Abadi is an investment firm that provides various services by assisting the client to implement the corporate action on setting up the goals and structures strategically through public offering, merger & acquisition and restructuring.
                         </div>

@@ -24,12 +24,16 @@ function Navigation() {
                 <Nav.Link eventKey="3" as={Link} to='/about'>About</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="5" as={Link} to='/news'>News</Nav.Link>
+                <Nav.Link eventKey="4" as={Link} to='/news'>News</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="4" as={Link} to='/contact'>Contact</Nav.Link>
+                <Nav.Link eventKey="5" as={Link} to='/contact'>Contact</Nav.Link>
               </Nav.Item>
             </Nav>
+            <div className="btn-group">
+              <a href='/'><button className='button-1'>EN</button></a>
+              <a href='/id/beranda'><button className='button-2'>ID</button></a>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

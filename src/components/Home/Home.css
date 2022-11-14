@@ -164,15 +164,27 @@
 }
 
 .service-link {
-    font-size: 26px;
-    border-bottom: 3px solid #9A7AF1;
-    color: #9A7AF1;
+    display: inline-block;
+    color: #007EC4;
     text-decoration: none;
+}
+
+.service-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #007EC4;
+    transition: width .3s;
+}
+
+.service-link:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
 }
 
 .background-color-home-service {
     background-color: #F0F6FF;
-    border-radius: 50px;
 }
 
 

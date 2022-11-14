@@ -7,21 +7,21 @@ import Stack from 'react-bootstrap/Stack';
 import Location from "./Location.js";
 import "./Home.css";
 
-function HomeContact() {
+function HomeContactID() {
     return (
         <div>
             <Container>
                 <Row className="mb-3">
                     <Col lg={true}>
                         <div>
-                            <h2 className="font-2">GET IN TOUCH</h2>
+                            <h2 className="font-2">HUBUNGI KAMI</h2>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={true}>
                         <div className="font-2">
-                            <h2>Location</h2>
+                            <h2>Lokasi</h2>
                         </div>
                     </Col>
                     <Col lg={true}></Col>
@@ -35,13 +35,13 @@ function HomeContact() {
                     <Col lg={true}>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Control type="email" placeholder="Enter Email" />
+                                <Form.Control type="email" placeholder="Masukkan Email" />
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control type="text" wight="5px" placeholder="Enter Messeage " />
+                                <Form.Control type="text" wight="5px" placeholder="Masukkan Pesan " />
                             </Form.Group>
-                            <div><button className="Button">Send</button></div>
+                            <div><button className="Button">Kirim</button></div>
                         </Form>
                     </Col>
                 </Row>
@@ -50,4 +50,4 @@ function HomeContact() {
     );
 }
 
-export default HomeContact;
+export default HomeContactID;

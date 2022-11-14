@@ -8,7 +8,7 @@ import './Service.css'
 
 import aboutImage from "../../assets/bg.png";
 
-const CorporateAction = () => {
+const CorporateActionID = () => {
     const [visibleWithBackdropPreIPO, setVisibleWithBackdropPreIPO] = useState(false)
     const [visibleWithBackdropIPO, setVisibleWithBackdropIPO] = useState(false)
     const [visibleWithBackdropPostIPO, setVisibleWithBackdropPostIPO] = useState(false)
@@ -26,13 +26,13 @@ const CorporateAction = () => {
             <Container>
                 <Row>
                     <Col lg={true}>
-                        <h2 className="font-2">CORPORATE ACTION ADVISORY</h2>
+                        <h2 className="font-2">PENASIHAT AKSI PERUSAHAAN</h2>
                     </Col>
                 </Row>
                 <Row className='service-padding-1'>
                     <Col lg={true}>
                         <div>
-                            <p className='font-4-bold'>Restu Investama assists and advises the process of corporate action for listed company including rights issuance and other alternative fund raising.</p>
+                            <p className='font-4-bold'>Restu Investama membantu dan memberi saran proses aksi korporasi untuk perusahaan tercatat termasuk penerbitan hak dan penggalangan dana alternatif lainnya.</p>
                         </div>
                     </Col>
                 </Row>
@@ -40,7 +40,7 @@ const CorporateAction = () => {
                     <Col lg={true}>
                         <div className="data-card mx-auto" onClick={handleShowPreIPO}>
                             <h3>PRE-IPO</h3>
-                            <p className='font-4'>Pre-IPO, or pre-initial public offering, is a branch of private equity investing that concentrates on...</p>
+                            <p className='font-4'>Pra-IPO, atau penawaran umum pra-initial, adalah cabang dari investasi ekuitas swasta yang berkonsentrasi pada...</p>
                             <span className="link-text">
                                 View More
                             </span>
@@ -49,7 +49,7 @@ const CorporateAction = () => {
                     <Col lg={true}>
                         <div className="data-card mx-auto" onClick={handleShowIPO}>
                             <h3>IPO</h3>
-                            <p className='font-4'>IPO is a public sale in which a firm sells shares to institutional investors as well as typically to retail individual investors...</p>
+                            <p className='font-4'>IPO adalah penjualan publik di mana perusahaan menjual saham kepada investor institusi serta biasanya kepada investor individu ritel...</p>
                             <span className="link-text">
                                 View More
                             </span>
@@ -58,7 +58,7 @@ const CorporateAction = () => {
                     <Col lg={true}>
                         <div className="data-card mx-auto" onClick={handleShowPostIPO}>
                             <h3>POST-IPO</h3>
-                            <p className='font-4'>Post-IPO refers to the period after a company's initial public offering of stock which marks its entry into the equity financial markets...</p>
+                            <p className='font-4'>Pasca-IPO mengacu pada periode setelah penawaran umum perdana saham perusahaan yang menandai masuknya ke pasar keuangan ekuitas...</p>
                             <span className="link-text">
                                 View More
                             </span>
@@ -68,19 +68,19 @@ const CorporateAction = () => {
             </Container>
             <Offcanvas show={visibleWithBackdropPreIPO} onHide={handleClosePreIPO} placement="end">
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title className="NameTittle">Pre IPO</Offcanvas.Title>
+                    <Offcanvas.Title className="NameTittle">Pra IPO</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="Description">
                     <div>
-                        <p>Pre-IPO, or pre-initial public offering, is a branch of private equity investing that concentrates on late-stage businesses that are anticipated to be close to a liquidity event (most commonly an IPO). Pre-IPO investors make investments at later points in a private company's history of finance.</p>
+                        <p>Pra-IPO, atau penawaran umum pra-awal, adalah cabang investasi ekuitas swasta yang berkonsentrasi pada bisnis tahap akhir yang diantisipasi mendekati peristiwa likuiditas (paling sering IPO). Investor pra-IPO melakukan investasi pada titik-titik selanjutnya dalam sejarah keuangan perusahaan swasta.</p>
                         <ul>
-                            <li>Assist client in regard to the process of corporate restructuring-turing for listing purposes</li>
-                            <li>Providing business and assets restructuring services</li>
-                            <li>Providing advices in taxation and funding implications related to Pre IPO restructuring</li>
-                            <li>Assisting clients to evaluate business prospects, strategic plans and financial position</li>
-                            <li>Assisting clients to evaluate investment attractiveness of a company</li>
-                            <li>Valuating equity in view of business prospects </li>
-                            <li>Financing the whole process above</li>
+                            <li>Membantu klien dalam proses restrukturisasi-turing perusahaan untuk keperluan listing</li>
+                            <li>Menyediakan layanan restrukturisasi bisnis dan aset</li>
+                            <li>Memberikan saran dalam perpajakan dan implikasi pendanaan terkait dengan restrukturisasi Pra IPO</li>
+                            <li>Membantu klien untuk mengevaluasi prospek bisnis, rencana strategis dan posisi keuangan</li>
+                            <li>Membantu klien untuk mengevaluasi daya tarik investasi suatu perusahaan</li>
+                            <li>Menilai ekuitas dilihat dari prospek usaha</li>
+                            <li>Membiayai seluruh proses di atas</li>
                         </ul>
                     </div>
                 </Offcanvas.Body>
@@ -91,14 +91,14 @@ const CorporateAction = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body className="Description">
                     <div>
-                        <p>IPO is a public sale in which a firm sells shares to institutional investors as well as typically to retail individual investors</p>
+                        <p>IPO adalah penjualan publik di mana sebuah perusahaan menjual saham kepada investor institusional serta biasanya kepada investor individu ritel</p>
                         <ul>
-                            <li>Assisting in all preparation and fulfillment of listing requirements</li>
-                            <li>Assisting the company in order to find suitable oﬀering structure and period</li>
-                            <li>Assisting in the preparation of marketing materials</li>
-                            <li>Providing advices on pricing and allocation of the securities oﬀered</li>
-                            <li>Coordinating with related professional experts</li>
-                            <li>Drafting and reviewing of IPO related documents or agreements </li>
+                            <li>Membantu dalam semua persiapan dan pemenuhan persyaratan listing</li>
+                            <li>Membantu perusahaan untuk menemukan struktur dan periode penawaran yang sesuai;</li>
+                            <li>Membantu menyiapkan materi pemasaran</li>
+                            <li>Memberikan saran tentang harga dan alokasi sekuritas yang ditawarkan</li>
+                            <li>Melakukan koordinasi dengan tenaga ahli terkait</li>
+                            <li>Menyusun dan meninjau dokumen atau perjanjian terkait IPO</li>
                         </ul>
                     </div>
                 </Offcanvas.Body>
@@ -109,12 +109,12 @@ const CorporateAction = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body className="Description">
                     <div>
-                        <p>Post-IPO refers to the period after a company's initial public offering of stock which marks its entry into the equity financial markets. The commitments and business strategies the company agreed to in the earlier stages are carried out during the post-IPO transaction stage.</p>
+                        <p>Pasca-IPO mengacu pada periode setelah penawaran umum perdana saham perusahaan yang menandai masuknya perusahaan ke pasar keuangan ekuitas. Komitmen dan strategi bisnis yang disepakati perusahaan pada tahap awal dilakukan pada tahap pasca transaksi IPO.</p>
                         <ul>
-                            <li>Rights issuance</li>
-                            <li>Material transactions</li>
-                            <li>Transactions with aﬃliated parties and/or with conflict of interest</li>
-                            <li>Reserve take-overs.</li>
+                            <li>Penerbitan hak</li>
+                            <li>Transaksi material</li>
+                            <li>Transaksi dengan pihak terafiliasi dan/atau mengandung benturan kepentingan</li>
+                            <li>Cadangan take-over</li>
                         </ul>
                     </div>
                 </Offcanvas.Body>
@@ -123,4 +123,4 @@ const CorporateAction = () => {
     )
 }
 
-export default CorporateAction
+export default CorporateActionID

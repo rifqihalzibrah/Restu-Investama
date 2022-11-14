@@ -1,0 +1,11 @@
+.contact {
+    height: 20%;
+    background-color: #F0F6FF;
+    margin-top: 5vh;
+    padding: 5vh;
+    border-radius: 20px;
+}
+
+.contact-title {
+    margin-top: 8vh;
+}

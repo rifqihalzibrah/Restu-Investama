@@ -1,15 +1,15 @@
 import React from 'react'
 import './Home.css'
-import HomeVisionMission from './HomeVisionMission.js'
-import HomeService from './HomeService.js'
-import HomeAbout from './HomeAbout.js'
-import HomeContact from './HomeContact.js'
+import HomeVisionMissionID from './HomeVisionMissionID.js'
+import HomeServiceID from './HomeServiceID.js'
+import HomeAboutID from './HomeAboutID.js'
+import HomeContactID from './HomeContactID.js'
 
-const Home = () => {
+const HomeID = () => {
     return (
         <div>
             <div className='home-vision-mission area'>
-                <HomeVisionMission />
+                <HomeVisionMissionID />
                 <div>
                     <ul className="circles">
                         <li></li>
@@ -26,16 +26,16 @@ const Home = () => {
                 </div>
             </div>
             <div className='home-about' id='home-about'>
-                <HomeAbout />
+                <HomeAboutID />
             </div>
             <div className='home-service background-color-home-service'>
-                <HomeService />
+                <HomeServiceID />
             </div>
-            <div className='home-contact'>
-                <HomeContact />
+            <div className='home-contact' id='contact'>
+                <HomeContactID />
             </div>
         </div>
     )
 }
 
-export default Home
+export default HomeID

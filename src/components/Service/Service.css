@@ -131,7 +131,7 @@
     margin: 15px;
     padding: 5px;
     width: 500px;
-    min-height: 200px;
+    min-height: 240px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;

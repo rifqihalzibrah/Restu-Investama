@@ -20,10 +20,10 @@ const HomeService = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Link className='service-link' to='/service'>Our Strategy</Link>
+                        <div className='container-service-link'><Link className='service-link' to='/service'><h4>OUR STRATEGY</h4></Link></div>
                     </Col>
                     <Col>
-                        <Link className='service-link' to='/service'>Our Credential</Link>
+                        <div className='container-service-link'><Link className='service-link' to='/service'><h4>OUR CREDENTIAL</h4></Link></div>
                     </Col>
                 </Row>
             </Container>

@@ -9,19 +9,19 @@ import Container from "react-bootstrap/Container";
 const Contact = () => {
     return (
         <div>
-            <h1 className='font-1 contact-title'>CONTACT US</h1>
+            <h1 className='font-1 contact-title'>HUBUNGI KAMI</h1>
             <Container className="contact">
                 <Form>
                     <Row>
                         <Col>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Email Address</Form.Label>
+                                <Form.Label>Alamat Email</Form.Label>
                                 <Form.Control type="email" />
                             </Form.Group>
                         </Col>
                         <Col>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Company Name</Form.Label>
+                                <Form.Label>Nama Perusahaan</Form.Label>
                                 <Form.Control type="text" />
                             </Form.Group>
                         </Col>
@@ -29,7 +29,7 @@ const Contact = () => {
                     <Row>
                         <Col>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                <Form.Control placeholder='Message' as="textarea" rows={3} />
+                                <Form.Control placeholder='Pesan' as="textarea" rows={3} />
                             </Form.Group>
                         </Col>
                     </Row>

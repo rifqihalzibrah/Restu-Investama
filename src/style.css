@@ -13,12 +13,90 @@
     text-align: justify;
 }
 
+.logo-footer {
+    width: 60px;
+}
+
 .footer-link {
     text-decoration: none;
     color: white;
 }
 
 /* Global */
+
+.btn-group {
+    margin: 0 10px;
+}
+
+/* .btn-group button {
+    background-color: white;
+    border: 1px solid #007EC4;
+    color: #007EC4;
+    padding: auto;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    font-size: medium;
+} */
+
+.btn-group .button-1 {
+    background-color: #007EC4;
+    border: 1px solid #007EC4;
+    color: white;
+    padding: auto;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    font-size: medium;
+}
+
+.btn-group .button-2 {
+    background-color: white;
+    border: 1px solid #007EC4;
+    color: #007EC4;
+    padding: auto;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    font-size: medium;
+}
+
+.btn-group .tombol-1 {
+    background-color: white;
+    border: 1px solid #007EC4;
+    color: #007EC4;
+    padding: auto;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    font-size: medium;
+}
+
+.btn-group .tombol-2 {
+    background-color: #007EC4;
+    border: 1px solid #007EC4;
+    color: white;
+    padding: auto;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    font-size: medium;
+}
+
+/* .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+/* .btn-group button:hover {
+    background-color: #007EC4;
+    color: white;
+} */
 
 .Button {
     background-color: #9A7AF1;
@@ -32,6 +110,10 @@
     margin: 20px 2px;
     cursor: pointer;
     font-size: 15px;
+}
+
+.left {
+    text-align: left;
 }
 
 .Button:hover {
@@ -81,4 +163,39 @@
 .responsive-image {
     width: 100%;
     height: auto;
+}
+
+/* Styling ads */
+
+.ads-description {
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.ads-container {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background: #007EC4;
+    color: white;
+}
+
+
+.btn-bgstroke {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-bgstroke:hover {
+    background-color: white;
+    color: #007EC4;
 }

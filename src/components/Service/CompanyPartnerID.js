@@ -22,7 +22,7 @@ import sansekerta from "../../assets/sansekerta.jpg"
 import nusapangan from "../../assets/nusapangan.png"
 import cariMobil from "../../assets/cari_mobil.png"
 
-const CompanyPartner = () => {
+const CompanyPartnerID = () => {
     const [description, setDescription] = useState("")
 
     const [screenSize, getDimension] = useState({
@@ -47,7 +47,7 @@ const CompanyPartner = () => {
     return (
         <div>
             <Container>
-                <Row className="pb-3"><h2 className='font-2'>COMPANIES THAT HAVE MET AND ASSESSED WITH US</h2></Row>
+                <Row className="pb-3"><h2 className='font-2'>PERUSAHAAN YANG TELAH BERTEMU DAN MENJALIN KERJA SAMA DENGAN KAMI</h2></Row>
                 <Row>
                     <Swiper
                         spaceBetween={5}
@@ -355,4 +355,4 @@ const CompanyPartner = () => {
     )
 }
 
-export default CompanyPartner
+export default CompanyPartnerID

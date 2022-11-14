@@ -1,23 +1,17 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import NewsHeadlights from './NewsHeadlights';
+import NewsRest from './NewsRest';
+import "./News.css";
 
 const News = () => {
     return (
         <div>
-            <Container>
-                <Row>
-                    <Col>
-                        <div className='bg-warning'>1</div>
-                    </Col>
-                    <Col>
-                        <div className='bg-warning'>2</div>
-                        <div className='bg-warning'>3</div>
-                        <div className='bg-warning'>4</div>
-                    </Col>
-                </Row>
-            </Container>
+            <div className='headlights'>
+                <NewsHeadlights />
+            </div>
+            <div className='news-rest'>
+                <NewsRest />
+            </div>
         </div>
     )
 }

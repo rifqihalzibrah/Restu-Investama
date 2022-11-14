@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav';
 import Logo from '../assets/Logo 2.png'
 
-const Footer = () => {
+const FooterID = () => {
     const current = new Date();
     const year = current.getFullYear();
     return (
@@ -19,24 +19,24 @@ const Footer = () => {
                     <Col lg={true} className="py-3">
                         <strong>© {year} RESTU INVESTAMA</strong>
                         <p>
-                            Registration Number : <br />
-                            License Number :
+                            Nomor Registrasi : <br />
+                            Nomor Lisensi :
                         </p>
                     </Col>
                     <Col lg={true} className="py-3">
-                        <strong>COMPANY</strong>
+                        <strong>PERUSAHAAN</strong>
                         <div>
-                            <Nav className="footer-link" as={Link} to='/about'>About Us</Nav>
+                            <Nav className="footer-link" as={Link} to='/id/tentang'>Tentang Kami</Nav>
                         </div>
                         <div>
-                            <Nav className="footer-link" as={Link} to='/service'>Service</Nav>
+                            <Nav className="footer-link" as={Link} to='/id/servis'>Servis</Nav>
                         </div>
                         <div>
-                            <Nav className="footer-link" as={Link} to='/news'>News</Nav>
+                            <Nav className="footer-link" as={Link} to='/news'>Berita</Nav>
                         </div>
                     </Col>
                     <Col lg={true} className="py-3">
-                        <strong>CONTACT</strong>
+                        <strong>KONTAK</strong>
                         <p>Jl. Arteri Pd. Indah No.10, RW.6, Kby. Lama Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240</p>
                     </Col>
                 </Row>
@@ -45,4 +45,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default FooterID
